@@ -21,7 +21,15 @@ header .container {
     margin: 0 auto;
     padding: 0 20px;
 }
-
+header .logo img {
+    position: absolute;
+    top: 20px; /* Adjust based on your padding */
+    left: 95px; /* Adjust based on your padding */
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%; /* Circular logo */
+}
 header .logo h1 {
     margin: 0;
 }
@@ -45,9 +53,11 @@ header nav ul li a {
 
 /* Hero Section */
 .hero {
-    background: #f4f4f4;
-    padding: 60px 20px;
+    background: #ffffff;
+    padding: 260px;
+    padding-top: 198px;
     text-align: center;
+
 }
 
 .hero-content h2 {
@@ -75,13 +85,14 @@ header nav ul li a {
     background: #005bb5;
 }
 
+
 /* Footer */
 footer {
     background: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    margin-top: 20px;
+    margin-top: 263px;
 }
 
 footer .container {
